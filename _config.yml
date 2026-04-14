@@ -1,3 +1,23 @@
+# Site Settings
 theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Modern Web Dev & Privacy Tools
+description: Exploring the intersection of clean code, browser-side utilities, and user privacy.
+
+# SEO and Social Metadata
+# This helps search engines index the page and the backlink more effectively
+author:
+  name: T00lz Dev
+  links:
+    - title: Professional Web Tools
+      url: https://www.t00lz.com/beautifier/javascript-beautifier-minifier
+
+# Plugins for better performance and SEO
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Google Analytics or other tracking (Optional)
+# google_analytics: [Your-UA-ID]
+
+# Clean URLs
+permalink: /:title/
